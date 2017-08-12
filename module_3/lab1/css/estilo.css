@@ -1,0 +1,97 @@
+#contenedor
+{
+	margin: 10px;
+	border: solid black 2px;
+	font-size: 12px;
+}
+
+.divi
+{
+	height: 100px;
+	margin: 10px;
+	border: solid black 1px;
+	background-color: #FFEBCD;
+	
+}
+
+@media screen and (max-width: 464px) 
+{
+	#contenedor
+	{
+		font-size: -webkit-calc(12px * 2);
+		font-size: -moz-calc(12px * 2);
+	}
+
+	#uno
+	{
+		background-color: #008000;
+	}
+
+	#dos
+	{
+		background-color: #ADFF2F;
+	}
+
+	#tres
+	{
+		background-color: #F0FFF0;
+	}
+}
+
+@media screen and (min-width: 465px) and (max-width: 767px) 
+{
+	#uno
+	{
+		background-color: #8B0000;
+		display: inline-block;
+		width: 40%;
+	}
+
+	#dos
+	{
+		background-color: #E9967A;
+		display: inline-block;
+		width: 40%;
+	}
+
+	#tres
+	{
+		background-color: #8FBC8F;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) 
+{
+	#uno
+	{
+		background-color: #87CEFA;
+	}
+
+	#dos
+	{
+		background-color: #778899;
+	}
+
+	#tres
+	{
+		background-color: #B0C4DE;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) 
+{
+	#uno
+	{
+		background-color: #FFE4E1;
+	}
+
+	#dos
+	{
+		background-color: #FFE4B5;
+	}
+
+	#tres
+	{
+		background-color: #FDF5E6;
+	}
+}

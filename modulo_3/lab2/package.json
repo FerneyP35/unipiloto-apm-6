@@ -1,0 +1,19 @@
+{
+  "name": "comparacion",
+  "version": "1.0.0",
+  "description": "Comparación estricto y con correción de tipo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejo8591/unipiloto-apm-6.git"
+  },
+  "author": "FerneyP35",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alejo8591/unipiloto-apm-6/issues"
+  },
+  "homepage": "https://github.com/alejo8591/unipiloto-apm-6#readme"
+}

@@ -136,11 +136,6 @@ class Teacher extends Person
 		this.groups = groups;
 	}
 
-	/*setStudents(groups: Array<string>): void
-	{
-		this.groups = groups;
-	}*/
-
 
 
 	getProfession(): string

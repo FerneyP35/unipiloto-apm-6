@@ -1,0 +1,19 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "Laboratorio cinco",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FerneyP35/unipiloto-apm-6.git"
+  },
+  "author": "FerneyP35",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FerneyP35/unipiloto-apm-6/issues"
+  },
+  "homepage": "https://github.com/FerneyP35/unipiloto-apm-6#readme"
+}

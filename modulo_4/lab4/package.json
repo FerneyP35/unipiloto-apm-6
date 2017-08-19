@@ -1,0 +1,11 @@
+{
+  "name": "lab4-4",
+  "version": "1.0.0",
+  "description": "Laboratotio 4 modulo 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FerneyP35",
+  "license": "ISC"
+}

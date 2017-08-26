@@ -1,0 +1,28 @@
+<h1>{{ title }}</h1>
+
+
+<ul>
+  <li *ngFor="let vehiculo of vehiculos">
+    <span>{{vehiculo.placa}}</span> {{vehiculo.placa}}
+  </li>
+</ul>
+
+
+<div  *ngFor="let vehiculo of vehiculos">
+  <hr />
+  <span>{{vehiculo.marca}}</span> <br/>
+  <span>{{vehiculo.modelo}}</span> <br/>
+  <span>{{vehiculo.color}}</span> <br/>
+  <span>{{vehiculo.placa}}</span> <br/>
+  <span>{{vehiculo.capacidad}}</span> <br/>
+  <span>{{vehiculo.annFabricacion}}</span>
+</div>
+
+<div  *ngFor="let conductor of conductores">
+  <hr />
+  <span>{{conductor.id}}</span> <br/>
+  <span>{{conductor.licensia}}</span> <br/>
+  <span>{{conductor.nombre}}</span> <br/>
+  <span>{{conductor.apellido}}</span> <br/>
+  <span>{{conductor.edad}}</span> 
+</div>

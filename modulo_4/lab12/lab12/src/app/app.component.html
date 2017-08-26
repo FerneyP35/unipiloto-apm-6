@@ -1,9 +1,21 @@
-﻿<h1>{{ title }}</h1>
+﻿<h1>{{ titleEstudiante }}</h1>
 <ul>
   <li *ngFor="let estudiante of estudiantes"
-      (click)="onSelect(estudiante)">
+      (click)="onSelectEstudiante(estudiante)">
     <span>{{estudiante.id}}</span> {{estudiante.nombre}}
   </li>
 </ul>
 
 <estudiante-detail [estudiante]="selected"></estudiante-detail>
+
+
+
+<h1>{{ titleProfesor }}</h1>
+<ul>
+  <li *ngFor="let profesor of profesores"
+      (click)="onSelectProfesor(profesor)">
+    <span>{{profesor.id}}</span> {{profesor.nombre}}
+  </li>
+</ul>
+
+<profesor-detail [profesor]="selected2"></profesor-detail>

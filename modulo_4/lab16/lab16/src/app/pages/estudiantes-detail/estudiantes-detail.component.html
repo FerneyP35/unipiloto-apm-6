@@ -1,0 +1,41 @@
+<h1>{{ titleEstudiante }}</h1>
+
+<div *ngIf="estudiente">
+  <hr />
+  <label>Id: </label><br />
+  <input [(ngModel)]="estudiante.id" placeholder="Id"><br />
+
+  <label>edad: </label><br />
+  <input [(ngModel)]="estudiante.edad" placeholder="Edad"><br />
+
+  <label>Nombre: </label><br />
+  <textarea [(ngModel)]="estudiante.nombre" placeholder="Nombre"></textarea><br />
+
+  <label>Apellido: </label><br />
+  <input [(ngModel)]="estudiante.apellido" placeholder="Apellido"><br />
+
+  <label>Clases: </label><br />
+  <input [(ngModel)]="estudiante.clases" placeholder="Clases"><br />
+
+  <label>Grado: </label><br />
+  <input [(ngModel)]="estudiante.grado" placeholder="Grado"><br />
+
+  <label>Grupo: </label><br />
+  <input [(ngModel)]="estudiante.grupo" placeholder="Grupo"><br />
+
+</div>
+
+
+<!-- 
+
+export class Estudiante {
+  id: number;
+  edad: number;
+  nombre: string;
+  apellido: string;
+  clases: string;
+  grado: number;
+  grupo: string;
+}
+
+-->

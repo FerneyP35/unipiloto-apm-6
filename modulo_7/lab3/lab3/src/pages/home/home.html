@@ -1,0 +1,54 @@
+<!--
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Título
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  The world is your oyster.
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    El contenido.
+  </p>
+</ion-content>
+-->
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Título
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+eee
+	<div *ngIf="estudiante">
+	  <hr />
+
+	  <label>Id: </label><br />
+	  <input [(ngModel)]="estudiante.id" placeholder="Id"><br />
+
+	  <label>Edad: </label><br />
+	  <textarea [(ngModel)]="estudiante.edad" placeholder="Edad"></textarea><br />
+
+	  <label>Nombre: </label><br />
+	  <input [(ngModel)]="estudiante.nombre" placeholder="Nombre"><br />
+
+	  <label>Apellido: </label><br />
+	  <input [(ngModel)]="estudiante.apellido" placeholder="Apellido"><br />
+
+	   <label>Clases: </label><br />
+	  <input [(ngModel)]="estudiante.clases" placeholder="Clases"><br />
+
+	   <label>Grado: </label><br />
+	  <input [(ngModel)]="estudiante.grado" placeholder="Grado"><br />
+
+	   <label>Grupo: </label><br />
+	  <input [(ngModel)]="estudiante.grupo" placeholder="Grupo"><br />
+	</div>
+
+</ion-content>

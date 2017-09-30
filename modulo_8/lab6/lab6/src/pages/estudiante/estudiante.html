@@ -16,10 +16,17 @@
 <ion-content padding>
 	<p>Listado de estudiantes.</p>
 
+  
   <ion-list inset>
     <button ion-item *ngFor="let item of estudiantes" (click)="openNavDetailsPage(item)">
       {{ item.nombre }} {{ item.apellido }}
     </button>
+    
+<!--
+    <button ion-item *ngFor="let item of items" (click)="ionViewDidLoad(item)">
+      {{ item.nombre }} {{ item.apellido }}
+    </button>
+-->
   </ion-list>
 
 </ion-content>

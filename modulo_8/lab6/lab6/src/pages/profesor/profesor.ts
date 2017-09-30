@@ -15,12 +15,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ProfesorPage {
 
-	/*profesores = [
-	'Julian Valero',
-	'Carlos Amaya',
-	'Luis Becerra'
-];*/
-
  	profesores = [
       {
         id: 1,

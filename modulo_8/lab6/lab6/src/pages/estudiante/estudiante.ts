@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { /*IonicPage,*/ NavController, NavParams } from 'ionic-angular';
-//import { Estudiante } from '../../models/estudiante';
+import { IonicPage, NavController/*, NavParams*/ } from 'ionic-angular';
+import { EstudianteDetallePage } from '../estudiante-detalle/estudiante-detalle';
 
 /**
  * Generated class for the EstudiantePage page.
@@ -10,43 +10,11 @@ import { /*IonicPage,*/ NavController, NavParams } from 'ionic-angular';
  */
 
 
-//https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/navigation/basic
 
-
-//@IonicPage()
+@IonicPage()
 @Component({
-  //selector: 'page-estudiante',
-  templateUrl: 'estudiante-detalle.html',
-  //templateUrl: 'estudiante.html',
-})
-
-export class EstudianteDetallePage//EstudianteDetallPage
-{
-	item;
-
-	constructor(params: NavParams)
-	{
-		this.item = params.data.item;
-	}
-}
-
-
-@Component({
-	/*templateUrl: `<ion-header>
-  <ion-navbar>
-    <ion-title>Estudiante</ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content>
-  <ion-list>
-    <button ion-item *ngFor="let item of estudiantes" (click)="openNavDetailsPage(item)">
-      {{ item.nombre }} {{ item.apellido }}
-    </button>
-  </ion-list>
-</ion-content>
-`*/
-	templateUrl: 'estudiante.html',
+  selector: 'page-estudiante',
+  templateUrl: 'estudiante.html',
 })
 
 export class EstudiantePage {
@@ -90,5 +58,6 @@ export class EstudiantePage {
     this.nav.push(EstudianteDetallePage, {item: item});
   }
 
-}
 
+
+}
